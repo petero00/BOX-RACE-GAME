@@ -1,0 +1,69 @@
+#A{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 0px;
+    background-color: black;
+    position: absolute;
+}
+#B{
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    left: 0px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+}
+.botan{
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.botan:hover{
+    font-style:italic;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#line1{
+    width: 50px;
+    height: 100%;
+    top: 0px;
+    left: 50px;
+    background-color: gray;
+    position: absolute;
+}
+#line2{
+    width: 50px;
+    height: 100%;
+    background-color: gray;
+    top: 0px;
+    left: 1400px;
+    position: absolute;
+}
+
+.dis1{
+    background-color: rgb(225, 225, 225);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+h6{
+    font-size: 100px;
+    margin: 50 auto;
+}
+h1{
+    font-size: 45px;
+}
+#botan2{
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+#botan2:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
