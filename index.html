@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center;">
+    <div class="dis1" id="dis1"><br><br>
+        <h1>BOX RACE GAME</h1><br>
+        <button onclick="botan()" id="botan" class="botan">スタート!!</button><br><br>
+        <button onclick="abc()" id="botan2">レベル1</button>
+        <h3>
+            ~ゲーム説明~<br>
+        </h3>
+        <h4>
+            自分の箱(黒)をクリックして、<br>
+            敵の箱(赤)より早く向こう側の<br>
+            線(ゴール)の内側まで行こう！ <br><br><br>
+        </h4>
+        <p>注意：箱をクリックしないと動かないよ！</p>
+    </div>
+    <div id="dis2" style="display: none;">
+        <h6 id="moji">5</h6>
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="A" onclick="ugoki()"></div>
+        <div id="B"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
